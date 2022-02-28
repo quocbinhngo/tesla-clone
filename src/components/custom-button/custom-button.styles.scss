@@ -1,0 +1,21 @@
+.custom-button {
+  border-radius: 100px;
+  background-color: rgba(23, 26, 32, 0.8);
+  height: 40px;
+  width: 256px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.85;
+  font-size: 12px;
+  cursor: pointer;
+
+  &.right-button {
+    background-color: white;
+    color: #000;
+    opacity: 0.65;
+  }
+}
